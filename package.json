@@ -1,0 +1,10 @@
+{
+  "name": "rxjs-fundamentals",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Andrew Miller <andrew.patrick.miller.2021@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "rxjs": "^7.5.5"
+  }
+}
