@@ -1,0 +1,14 @@
+div {
+  padding: 5px 10px;
+  border: 1px solid red;
+  width: fit-content;
+  margin: 4px 0px;
+}
+
+div:hover {
+  background-color: orange;
+}
+
+div:active {
+  background-color: pink;
+}
