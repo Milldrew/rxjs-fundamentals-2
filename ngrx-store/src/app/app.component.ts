@@ -8,10 +8,12 @@ import { AppState } from './app-state';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  counter$: Observable<number>;
+  newProduct = '';
+  counter$ = this.store.select('counter');
   title = 'ngrx-store';
-  constructor(private store: Store<AppState>) {
-    this.counter$ = this.store.select('counter');
+  constructor(private store: Store<AppState>) {}
+  add() {
+    this.store.dispatch({ type: 'ADD', payload: { load: 'hi' } });
   }
 
   increment() {

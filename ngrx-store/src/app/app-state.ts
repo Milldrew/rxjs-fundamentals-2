@@ -1,3 +1,4 @@
-export type AppState = {
+export interface AppState {
+  products: Array<any>;
   counter: number;
-};
+}
